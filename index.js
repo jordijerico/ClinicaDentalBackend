@@ -18,7 +18,7 @@ app.use(router);
 
 
 
-const PORT = NODE_ENV;
+const PORT = 4000;
 
 db.then(() => {
     app.listen(PORT, () => console.log("Server on port " + PORT));
