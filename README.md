@@ -1,7 +1,7 @@
 # D&J Clinic
 
 <details>
-  <summary>Contenido de la Aplicación 📝</summary>
+  <summary>Contenido 📝</summary>
   <ol>
     <li><a href="#sobre-el-proyecto">Sobre el proyecto</a></li>
     <li><a href="#stacks">Stack</a></li>
