@@ -22,7 +22,7 @@ app.get("/", (req,res) => {
 
 
 
-const PORT = 4000;
+const PORT = process.env.PORT;
 
 db.then(() => {
     app.listen(PORT, () => console.log("Server on port " + PORT));
