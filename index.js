@@ -16,6 +16,10 @@ app.use(cors());
 app.use(express.json());
 app.use(router);
 
+app.get("/", (req,res) => {
+    return res.send("Holaa")
+})
+
 
 
 const PORT = 4000;
